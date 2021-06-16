@@ -1,0 +1,11 @@
+@startuml class
+left to right direction
+
+class Employee {}
+class Grade {}
+class BounusService {}
+
+BounusService --> Employee
+Employee --> Grade
+
+@enduml

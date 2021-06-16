@@ -1,0 +1,16 @@
+@startuml class
+left to right direction
+
+
+class BounusService {}
+interface IEmployee {}
+class Analyst {}
+class Consultant {}
+class Enfineer {}
+
+Analyst ..|> IEmployee
+Consultant ..|> IEmployee
+Enfineer ..|> IEmployee
+BounusService --> IEmployee
+
+@enduml
